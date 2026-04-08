@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "portfolio app",
   "main": "server.js",
-  
   "scripts": {
     "start": "nodemon server.js"
-    
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +13,7 @@
     "colors": "^1.4.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.1",
+    "ee-first": "^1.1.1",
     "express": "^5.2.1",
     "mongoose": "^9.4.1",
     "nodemailer": "^8.0.2",
