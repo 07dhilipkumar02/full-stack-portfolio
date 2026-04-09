@@ -17,11 +17,11 @@ const Contact = () => {
           if (!name || !email || !msg) {
             toast.error("PLease Provide all fields");
           }
-          const res = await axios.post("https://full-stack-portfolio-4-pj1h.onrender.com/api/portfolio1/sendEmail", {
-         name,
-         email,
-         msg,
-        });
+          const res = await axios.post("http://localhost:8080/api/portfolio1/sendEmail", {
+  name,
+  email,
+  msg,
+});
           //validation success
           if (res.data.success) {
             toast.success(res.data.message);
